@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<style>
+  .twohundred {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 10px;
+  }
+
+  .grid1 {
+    background-color: lightblue;
+  }
+  .grid2 {
+    background-color: lightpink;
+  }
+
+  .b11 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 10px;
+  }
+
+  .col1 {
+    background-color: lightblue;
+  }
+
+  .col2 {
+    background-color: lightpink;
+  }
+
+  .col3 {
+    background-color: lightblue;
+  }
+
+  .c11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  
+  .coll1, .coll2, .coll3, .coll4 {
+    background-color: pink;
+  }
+
+</style>
+
+</head>
+<body>
+  <div class="twohundred">
+
+  <div class="grid1">200px</div>
+  <div class="grid2">75px</div>
+
+  </div>
+  
+  <div class="b11">
+
+  <div class="col1">col1</div>
+  <div class="col2">col2</div>
+  <div class="col3">col3</div>
+
+ </div>
+
+
+ <div class="c11">
+  <div class="coll1">coll1</div>
+  <div class="coll2">coll2</div>
+  <div class="coll3">coll3</div>
+  <div class="coll4">coll4</div>
+
+   <div class="coll1">coll1</div>
+   <div class="coll2">coll2</div>
+   <div class="coll3">coll3</div>
+   <div class="coll4">coll4</div>
+  </div>
+
+  </body>
+  </html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13f</title>
+
+  <style>
+
+    div {
+      font-family: arial;
+    }
+
+      .tweet {
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    .profile-picture-column {
+      margin-right: 10px;
+    }
+
+    .catimage {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+
+    .tweetcolumn {
+      flex: 1;
+    }
+
+
+    .channelname {
+      font-family: arial;
+    }
+
+    .ssd {
+      font-weight: bold;
+      
+    }
+    .ssd2 {
+      color: gray;
+    }
+
+    .channeldescription {
+      line-height: 20px;
+      margin-bottom: 15px;
+      
+    }
+
+    .video-preview {
+      border-style: solid;
+      border-radius: 15px;
+      border-width: 1px;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .thumbnail-column {
+      width: 100px;
+      height: 100px;
+      background-color: lightgray;
+      margin-right: 6px;
+    }
+
+    .youtube {
+      margin-bottom: 3px;
+      color: gray;
+    }
+
+    .video-info-column {
+      flex: 1;
+    }
+
+    .videotitle {
+      line-height: 22px;
+    }
+
+
+
+
+
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+  
+
+      <div class="tweet">
+
+        <div class="profile-picture-column"> 
+          
+        <img class="catimage" src="catimage.jpg" alt="">
+        </div>
+
+      <div class="tweetcolumn">
+
+        <div class="channelname">
+          <span class="ssd">supersimple.dev </span>
+          <span class="ssd2"> @SuperSimpleDev</span>
+        </div>
+
+
+        <div class="channeldescription">
+            What is backend web devlopment?
+            A complete overview. New video is
+            up!
+        </div>
+
+        <div class="video-preview"> 
+          <div class="thumbnail-column"></div>
+          <div class="video-info-column">
+            <div class="youtube">youtube.com</div>
+            <div class="videotitle">Backend web development- a complete
+              overview (2021)
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      </div>
+
+
+</body>
+</html>

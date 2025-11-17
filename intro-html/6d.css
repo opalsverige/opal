@@ -1,0 +1,19 @@
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: montserrat;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.description {
+  font-size: 20px;
+  font-family: montserrat regular;
+  text-align: center;
+  margin-top: 0;
+}
+
+.descspan {
+  text-decoration: underline;
+  cursor: pointer;
+}
